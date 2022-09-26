@@ -1,0 +1,35 @@
+.row-container{
+    margin-left: 20px;
+    color: white;
+}
+
+.row-cards{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px;
+}
+
+.row-cards::-webkit-scrollbar{
+    display: none;
+}
+.movie-card{
+    filter: drop-shadow(3px 20px 4px rgba(0, 0, 0, 0.25));
+    padding-left: 1%;
+    width: 100%;
+    max-height: 260px;
+    margin-bottom: 10px;
+    transition: transform 220ms;
+}
+.movie-card:hover{
+    transform: scale(1.05);
+}
+
+.movie-card-large{
+    filter: drop-shadow(3px 20px 4px rgba(0, 0, 0, 0.25));
+    padding-left: 1%;
+    width: 100%;
+    max-height: 303px;
+    margin-bottom: 10px;
+    transition: transform 220ms;
+}
